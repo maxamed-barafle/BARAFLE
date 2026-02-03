@@ -1,0 +1,94 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AL FURQAAN ACADEMIC</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #a6aebd;
+    }
+
+    .container {
+      width: 400px;
+      margin: 60px auto;
+      background: #c8b5b5;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #928989;
+    }
+
+    button {
+      width: 100%;
+      margin-top: 25px;
+      padding: 12px;
+      background: #67b495;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .error {
+      color: red;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>ALFURQAAN ACADEMIC REGISTRATION</h2>
+
+    <form id="form">
+      <label>Magaca 1aad</label>
+      <input type="text" id="fname" placeholder="gali magacaaga">
+
+      <label>Magaca 2aad</label>
+      <input type="text" id="sname" placeholder="magaca labaad">
+
+      <label>Magaca 3aad</label>
+      <input type="text" id="lname" placeholder="magaca saddexaad">
+
+      <label>Phone Number</label>
+      <input type="tel" id="phone" placeholder="061xxxxxxx">
+
+      <label>Lugtee ku dheesha</label>
+      <select id="leg">
+        <option value="">Dooro lugta</option>
+        <option value="midig">Midig</option>
+        <option value="bidix">Bidix</option>
+      </select>
+
+      <p id="error" class="error"></p>
+
+      <button type="submit">Isdiiwaan Gali</button>
+    </form>
+  </div>
+
+  <!-- JS FILE -->
+  <script src="moha.js"></script>
+
+</body>
+</html>
